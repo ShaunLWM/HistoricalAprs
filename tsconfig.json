@@ -11,7 +11,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "declaration": true
+    "declaration": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/*.spec.ts", "dist"]
